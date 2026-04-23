@@ -40,7 +40,7 @@ index.js          # Entry point
 
 ## API Documentation
 
-### 1. Create Order (Main API)
+### 1. Create Order 
 **POST** `/api/orders`
 - **Description**: Places an order, validates stock, locks inventory, and simulates payment.
 - **Request Body**:
@@ -51,7 +51,7 @@ index.js          # Entry point
       { "productId": 1, "qty": 2 },
       { "productId": 2, "qty": 1 }
     ],
-    "idempotencyKey": "unique-uuid-123"
+    "idempotencyKey": "{{$guid}}"
   }
   ```
 - **Process**: Validates stock -> Locks inventory -> Deducts stock -> Simulates payment -> Updates order status -> Rolls back if failed.
