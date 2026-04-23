@@ -2,6 +2,10 @@
 
 A robust Node.js based order processing engine with inventory management and idempotency support.
 
+**Live Link:** [https://seral-erp-solution.onrender.com](https://seral-erp-solution.onrender.com)  
+**Project Video:** [Watch on Google Drive](https://drive.google.com/file/d/1cBPvODBA-gmQtbJ5hK0d5Z9v_nWy2Yxb/view?usp=sharing)
+
+
 ## Project Structure
 ```text
 /src
